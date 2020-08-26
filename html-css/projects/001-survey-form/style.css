@@ -1,0 +1,117 @@
+/* latin */
+@font-face {
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'), url(https://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Bowlby One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(https://fonts.gstatic.com/s/bowlbyonesc/v11/DtVlJxerQqQm37tzN3wMug9P_gH2ojhN.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Bowlby One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Bowlby One SC Regular'), local('BowlbyOneSC-Regular'), url(https://fonts.gstatic.com/s/bowlbyonesc/v11/DtVlJxerQqQm37tzN3wMug9P_g_2og.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Sorts Mill Goudy Regular'), local('SortsMillGoudy-Regular'), url(https://fonts.gstatic.com/s/sortsmillgoudy/v9/Qw3GZR9MED_6PSuS_50nEaVrfzgEbHQEj6M7.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Sorts Mill Goudy';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Sorts Mill Goudy Regular'), local('SortsMillGoudy-Regular'), url(https://fonts.gstatic.com/s/sortsmillgoudy/v9/Qw3GZR9MED_6PSuS_50nEaVrfzgEbHoEjw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+body {
+    background-image: url("back.jpg");
+    color: white;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bowlby One SC", cursive;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+span {
+    color: red;
+}
+
+#description {
+    text-align: center;
+    font-size: 23px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    margin-bottom: 15px;
+}
+#survey-form {
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 10px;
+  }
+  
+  #name,
+  #email,
+  #number,
+  #dropdown {
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+  }
+  
+  .box {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  
+  .text-area {
+    margin-top: 10px;
+  }
+  #submit {
+    font-size: larger;
+    margin: 16px 0px 16px 150px;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+  }
+  #submit:hover {
+    background: white;
+    color: red;
+  }
