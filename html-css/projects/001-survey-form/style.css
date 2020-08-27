@@ -65,6 +65,7 @@ body {
 }
 span {
     color: red;
+    vertical-align: sub;
 }
 
 #description {
