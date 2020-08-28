@@ -1,0 +1,51 @@
+
+body {
+    font-family:comic-sns ;
+    font-size: 1rem;
+    align:center;
+    font-weight: 200;
+    line-height: 1.5;
+    color: var(--color-white);
+    position:center;
+  }
+  
+  h1 {
+    font-weight: 400;
+    color:whiteblue;
+    font-size:75px;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+  h1,
+  p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin: 1;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  button {
+    border: none;
+  }
+  
+  }
+ 

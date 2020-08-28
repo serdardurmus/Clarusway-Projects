@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Clarusway Survey Form</h1>
+    </div>
+    <div>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <form action="result.html">
+        Name
+        <label for=""> <br>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        </label>
+        
+        Surname
+        <label for=""> <br>
+            <input type="text" name="surname" id="surname" placeholder="Enter your surname" required>
+        </label>
+        
+        Email
+        <label for=""> <br>
+            <input type="email" name="email" id="email" placeholder="user@clarusway.com" required>
+        </label>
+        <div>
+            <p>Which option best describes your current role?</p>
+        </div>
+        <div>
+            <label for="">
+                <select name="role" id="role" required>
+                    <option disabled selected value="">Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Full_Time_Job">Full Time Job</option>
+                    <option value="Part_Time_Job">Part Time Job</option>
+                    <option value="Full_Time_Learner">Full Time Learner</option>
+                    <option value="Prefer_not_to_say">Prefer not to say</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <p>Would you recommend Clarusway to a friend?</p>
+        </div>
+        <div>
+            <label for="radio1"><input type="radio" name="friend" value="Definitely, Yes" id="radio1" checked>Definitely, Yes </label>
+            <label for="radio2"><input type="radio" name="friend" value="Maybe" id="radio2">Maybe </label>
+            <label for="radio3"><input type="radio" name="friend" value="Not sure" id="radio3">Not sure </label>
+            <label for="radio4"><input type="radio" name="friend" value="Definitely, No" id="radio4">Definitely, No </label>
+        </div>
+        <div>
+            <p>What is your favorite feature of Clarusway?</p>
+        </div>
+        <div>
+            <label for="">
+                <select name="role" id="role">
+                    <option disabled selected value>Select an option</option>
+                    <option value="Courses">Courses</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Mentors">Mentors</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <p>What would you like to see improved? (Check all that apply)</p>
+        </div>
+        <div>
+            <input type="checkbox" name="apply-1" id="apply-1" value="Front-end Projects">Front-end Projects<label for="apply-1"></label>
+            <input type="checkbox" name="apply-2" id="apply-2" value="Back-end Projects">Back-end Projects<label for="apply-2"></label> 
+            <input type="checkbox" name="apply-3" id="apply-3" value="Data Science">Data Science<label for="apply-3"></label> 
+            <input type="checkbox" name="apply-4" id="apply-4" value="Additional Courses">Additional Courses<label for="apply-4"></label> 
+        </div>
+        <div>
+            <p>Any comments or suggestions?</p>
+        </div>
+        <div>
+            <label for="suggestions">
+                <textarea name="suggestions" id="suggestions" cols="15" rows="3" placeholder="Enter your comment here... Thanxs for your somments..."></textarea>
+            </label>
+        </div>
+        <div>
+            <label for="submit"> <br>
+                <input type="submit" value="Submit" id="submit">
+                <input type="reset" value="Reset">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
