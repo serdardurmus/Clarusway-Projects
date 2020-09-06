@@ -82,7 +82,9 @@ button {
 }
 /* Google Img CSS ----------- */
 .Google {
-    margin: 200px auto 0px 20%;
+    width: 100%;
+    text-align: center;
+    margin: 220px auto 0px auto;
 }
 
 /* Searchbar CSS ----------- */
@@ -142,13 +144,13 @@ button {
     outline: none;
 }
 
-#buttons_btn a:link {
+#buttons_btn:link {
     color: #5f6368;
     
 }
-#buttons_btn a:hover {
+#buttons_btn:hover {
     color: black;
-    box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px #F0F0F0;
 }
 
 /* Language CSS ----------- */
