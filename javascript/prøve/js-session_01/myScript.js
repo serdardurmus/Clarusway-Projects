@@ -131,3 +131,56 @@ console.log("");
 console.log("// REPLACE");
 const myString_8 = "Hello friends, Welcome to Home";
 console.log(myString_8.replace("Hello", "Hi"));
+
+// SEARCH (regex)
+console.log("");
+console.log("// SEARCH (regex - Regular Expressesions)");
+const myString_9 = "Hello friends, Welcome to Home";
+console.log(myString_9.indexOf("To Hom")) // key cencitive
+console.log(myString_9.indexOf("to Hom")) // key cencitive
+console.log(myString_9.search(/To Hom/i)) // i engelliyor key c'yi
+
+// SLICE
+console.log("");
+console.log("// SLICE");
+const myString_10 = "Hello friends, Welcome to Home";
+console.log(myString_10.slice(2,5));
+console.log(myString_10.slice(2));
+console.log(myString_10.slice(-1));
+console.log(myString_10.slice(-1,5)); // ingen ting
+
+// SPLIT
+console.log("");
+console.log("// SPLIT");
+const myString_11 = "Hello! friends, Welcome! to Home";
+console.log(myString_11.split(" "))
+console.log(myString_11.split(","))
+console.log(myString_11.split("!"))
+
+// SUBSTR() - SUBSTRING()
+console.log("");
+console.log("// SUBSTR() - SUBSTRING()");
+const myString_12 = "Hello! friends, Welcome! to Home";
+console.log(myString_12.slice(2,18)) // slice()
+console.log(myString_12.substr(2,18)) // substr()  // 6dan başla 10 karakter al
+console.log(myString_12.substring(2,18)) // substring() // 6 ile 10 arasındakini al, 6 dahil 10 dahil değil
+
+// SUBSTR() - SUBSTRING() - SLICE()
+console.log("");
+console.log("// SUBSTR() - SUBSTRING() - SLICE()");
+const myString_13 = "Hello! friends, Welcome! to Home";
+
+
+// toLoweCase - toUpperCase
+console.log("");
+console.log("// toLoweCase - toUpperCase");
+const myString_14 = "Hello! friends, Welcome! to Home";
+console.log(myString_14.toLocaleLowerCase());
+console.log(myString_14.toUpperCase());
+
+// TRIM
+console.log("");
+console.log("// TRIM");
+const myString_15 = "   Hello! friends, Welcome! to Home     ";
+console.log(myString_15);
+console.log(myString_15.trim());
