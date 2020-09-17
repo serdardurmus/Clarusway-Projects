@@ -35,3 +35,11 @@ console.log(myNymber1 == 9 && myNymber2 == 8);  //false
 console.log(myNymber1 == 9 || myNymber2 == 8);  //true
 console.log(myNymber1 == 9 || myNymber2 == 7);  //false
 console.log(myNymber1 == 9 || myNymber2 == "8");  //true
+console.log(!(myNymber1 == 9 || myNymber2 == "8"));  //false
+console.log("");
+console.log(!1);  //false
+console.log(0 && true);  //0
+console.log(5 && true);  //true
+console.log("Hei" && true);  //true
+console.log("" && true);  // ingen ting (space)
+console.log("" || true);  //true
