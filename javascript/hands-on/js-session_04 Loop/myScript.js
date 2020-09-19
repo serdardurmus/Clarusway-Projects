@@ -60,6 +60,11 @@ console.log("Sum: ",sum);
     console.log(result);
 }
 
+
+// forEach
 {
-    
+    const myArray = ["Serdar", "Durmus", "Serdar", "Lier","Serdar"    ]; 
+    array.forEach(element => {
+        console.log(element);
+    });
 }
