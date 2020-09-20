@@ -48,6 +48,49 @@ section.news .news h1 {
   font-size: 50px;
 }
 
+section.newsLetter {
+  background-color: #35424a;
+  color: white;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+section.newsLetter .newsLetter {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+section.newsLetter .newsLetter .newsLetter-title {
+  float: left;
+}
+section.newsLetter .newsLetter .newsLetter-email {
+  float: right;
+}
+section.newsLetter .newsLetter .newsLetter-email input {
+  height: 40px;
+  border: 0ox;
+  padding: 0px 0px 0px 5px;
+}
+section.newsLetter .newsLetter .newsLetter-email button {
+  height: 40px;
+  background-color: #a9508b;
+  color: white;
+  border: 0px;
+  padding: 0px 20px;
+}
+
+section.content {
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+section.content .content {
+  width: 80%;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
   header .container .title h3 {
     margin-bottom: 0px;
@@ -69,6 +112,14 @@ section.news .news h1 {
     flex-direction: row;
     margin-top: 0px;
   }
+
+  section.newsLetter .newsLetter .newsLetter-title {
+    float: left;
+  }
+  section.newsLetter .newsLetter .newsLetter-email {
+    float: right;
+    margin-top: 1px;
+  }
 }
 @media screen and (min-width: 762px) and (max-width: 1024px) {
   header .container .title h3 {
@@ -76,6 +127,14 @@ section.news .news h1 {
   }
   header .container .menu {
     margin-top: 30px;
+  }
+
+  section.newsLetter .newsLetter .newsLetter-title {
+    float: left;
+  }
+  section.newsLetter .newsLetter .newsLetter-email {
+    float: right;
+    margin-top: 23px;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
