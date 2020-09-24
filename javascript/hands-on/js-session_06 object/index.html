@@ -8,8 +8,20 @@
     <h1>Hello</h1>
     <h2>Object</h2>
     <script src="myScript_2.js">
+        
     </script>
-
+    <h1>DOM</h1>
+    <div id="demo">
+        <p>Hello Everybody</p>
+        <p>Document Object Model (DOM)</p>
+    </div>
+    <p id="DOM"></p>
+  <script>
+    var x = document.getElementById("demo");
+    var y = x.getElementsByTagName("p");
+    document.getElementById("demo").innerHTML = 
+'The first paragraph inside is: ' + y[0].innerHTML;
+  </script>
 
 </body>
 </html>

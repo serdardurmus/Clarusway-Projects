@@ -38,3 +38,51 @@
     return b - a});
     console.log(num);
 }
+
+
+// bare prøv
+{
+    var dog = {
+        name:"Rocky",
+        legs: 4,
+        tail: 1,
+        qualities: ["loyalty","companionship"],
+        bark: function() {
+            console.log("woof");
+        },
+        result: function() {
+            return this.name +" has "+ this.legs + " legs.";
+        }
+    };
+    console.log("");
+    console.log(dog.name);
+    dog.bark();
+    console.log(dog.result());
+}
+
+
+{
+    class Dog {
+        constructor(name, foot) {
+          this.dogName = name;
+          this.foot = foot;
+        }
+      }
+      myDog = new Dog("Buldog") 
+      console.log(myDog.dogName);
+}
+{
+    class Dog {
+        constructor(name, foot) {
+          this.dogName = name;
+          this.foot = foot;
+        }
+        current(){
+           return "I have a " + this.dogName + " and it has " + this.foot + " legs" ;
+        }
+      }
+      myDog = new Dog("Buldog", 4) 
+      // document.getElementById("content").innerHTML = myDog.current();
+      console.log(myDog);
+      console.log(myDog.current());
+}
