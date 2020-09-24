@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #7cddfe;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+}
+body .container h1 {
+  text-align: center;
+  padding: 20px;
+  color: #2a2d96;
+}
+body .container h3, body .container h4 {
+  text-align: center;
+  color: #2a2d96;
+}
+body .container #js {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding-top: 20px;
+}
+body .container #js #inp {
+  line-height: 30px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  outline: transparent;
+}
+body .container #js #btn-check {
+  line-height: 30px;
+  padding: 0 20px;
+  margin-right: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  outline: transparent;
+}
+body .container #js #btn-lucky {
+  line-height: 30px;
+  padding: 0 20px;
+  margin-right: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  outline: transparent;
+}
+body .container #js #btn-lucky:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+body .container #js #btn-check:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+body .container .background {
+  width: 80%;
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */
