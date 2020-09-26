@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body .container img {
+  width: 100%;
+}
+body .container .inp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+body .container .inp input {
+  line-height: 25px;
+  outline: none;
+  border: 3px solid brown;
+  padding-left: 5px;
+}
+body .container .inp button {
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 33px;
+  border: 3px solid brown;
+  background-color: white;
+  color: brown;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+body .container .result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+body .container .result h2 {
+  padding: 0 30px;
+  min-width: 100px;
+  text-align: center;
+  margin: 0 20px;
+}
+body footer {
+  text-align: center;
+  background-color: brown;
+  color: cornsilk;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

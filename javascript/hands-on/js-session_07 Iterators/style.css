@@ -1,0 +1,22 @@
+.success {
+    color: red;
+}
+
+.error {
+    color: blue;
+}
+
+.hello {
+    color: blue;
+    font-size: 45px;
+}
+
+.bannerText {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active {
+    color: chartreuse;
+}
