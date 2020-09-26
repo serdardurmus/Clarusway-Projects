@@ -1,22 +1,14 @@
-.success {
-    color: red;
-}
-
-.error {
-    color: blue;
-}
-
-.hello {
-    color: blue;
-    font-size: 45px;
-}
-
-.bannerText {
-    font-size: 30px;
+.article,
+input,
+button {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .title {
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.active {
-    color: chartreuse;
-}
+  }
+  .reading_count {
+    font-style: italic;
+  }
