@@ -12,3 +12,7 @@ body {
     margin-bottom: 60px;
     font-weight: bold;
   }
+
+  #nr_game {
+      outline: none;
+  }
