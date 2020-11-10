@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import {Card} from './components/Card';
+import Box from './components/Box';
+
 
 function App() {
   return (
@@ -17,7 +20,10 @@ function App() {
         >
           Learn React
         </a>
+        <Card />
       </header>
+      <Card name="JhonCard"/>
+      <Box name= "Jhon"/>
     </div>
   );
 }
