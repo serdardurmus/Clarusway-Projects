@@ -1,11 +1,11 @@
 import React from 'react';
 // import styles from './Card.module.css';
-import './Card.style.scss';
+import './Card.module.css';
 
 export const Card = () => {
     return (
         <div 
-            className="card-wrapper"
+            className="cardWrapper"
             // style={cardStyle}
         >
             <p>CARD</p>
