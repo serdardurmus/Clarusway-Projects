@@ -1,19 +1,10 @@
-import React from 'react';
-// import styles from './Card.module.css';
-import './Card.module.css';
+import {StyledCardWrapper, StyledText, StyledMovieImage} from "./Card.style"
 
-export const Card = () => {
+export const Card = ({title, imgSrc}) => {
     return (
-        <div 
-            className="cardWrapper"
-            // style={cardStyle}
-        >
-            <p>CARD</p>
-        </div>
+        <StyledCardWrapper>
+            <StyledMovieImage src={imgSrc} alt={"Movie Poster"}/>
+            <StyledText>{title}</StyledText>
+        </StyledCardWrapper>
     )
-};
-
-const cardStyle = {
-    color: "red",
-    backgroundColor: "#bdbdbd"
 }
