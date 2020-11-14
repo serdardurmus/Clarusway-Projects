@@ -1,4 +1,4 @@
-.card-wrapper {
+.cardWrapper {
     color: black;
     width: 150px;
     height: 200px;
@@ -11,5 +11,5 @@
 }
 
 p {
-    color: red;
+    color: blue;
 }

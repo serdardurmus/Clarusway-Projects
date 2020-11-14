@@ -1,5 +1,7 @@
 import React from 'react';
-import './Card.style.css';
+// import styles from './Card.module.css';
+import './Card.style.scss';
+
 export const Card = () => {
     return (
         <div 
