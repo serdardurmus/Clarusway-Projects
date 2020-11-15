@@ -17,6 +17,21 @@ function App() {
         >
           Learn React
         </a>
+        <h3>Pakker installert i startProject</h3>
+        <table>
+          <tr>
+            <th>Numre</th>
+            <th>Pakker</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>yarn add axios</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>100</td>
+          </tr> 
+        </table>
       </header>
     </div>
   );

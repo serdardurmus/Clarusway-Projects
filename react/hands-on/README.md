@@ -1,3 +1,4 @@
-# React Hands-on Trainings
+# Pakker installert i startProject
 
-List of hands-on trainings within React workshop as follows;
+- yarn add axios
+- 
