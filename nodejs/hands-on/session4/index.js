@@ -1,7 +1,7 @@
 const express = require("express");
-
+const port = 5000;
 const app = express();
 
-app.listen(3000, () => {
-    console.log("I'm lsitenind");
+app.listen(port, () => {
+    console.log(`I'm listenind on ${port}`);
 });
