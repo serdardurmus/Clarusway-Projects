@@ -10,6 +10,11 @@ const app = express();
 
 app.use(cookieParser());
 
+app.use((req, res, next) => {
+    console.log("Cookies: ", req.signedCookies);
+    next();
+  });
+  
 app.use((req, res, next) => { //Authentication
     console.log("Auth");
     // some jobs
