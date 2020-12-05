@@ -18,3 +18,5 @@ nodejs postgres project
 - .gitignore oluşturduk
 - npx express-generator kurduk
 - npx express-generator --view ejs // .jade dosyaları silindi, ejs kullanacağız
+- npm i nodemon
+- npm install // eksik modülleri yükledi
