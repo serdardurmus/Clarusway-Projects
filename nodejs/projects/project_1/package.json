@@ -8,10 +8,13 @@
   "dependencies": {
     "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
     "ejs": "~2.6.1",
     "express": "^4.16.4",
     "http-errors": "^1.6.3",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5"
   }
 }
