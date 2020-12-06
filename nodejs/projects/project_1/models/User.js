@@ -24,13 +24,16 @@ const UserModel = sequelize.define(
       //id, firstName, lastName, createdAt, updatedAt
       firstName: {
         type: DataTypes.STRING,
+        allowNull:false
       },
       lastName: {
         type: DataTypes.STRING,
+        allowNull:false
       },
     },
     {
-      //options
+      // options
+      // freezeTableName: true // tablo ismine s eklemek istemiyorsa bunu kullanıyoruz yukarıya da "recruiters" yazıyoruz.
     }
   );
   module.exports = UserModel;

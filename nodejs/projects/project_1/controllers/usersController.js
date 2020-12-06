@@ -10,6 +10,54 @@ exports.get_users = async (req, res, next) => {
   }
 };
 
-exports.add_user = (req, res) => {
+// on get request
+exports.show_add_user_form = (req, res) => {
   res.render("addUser");
+};
+
+// on post request
+exports.add_user = async (req, res) => {
+  // add to db
+  
+  try {
+    const newUser = await UserModel.create({
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+    })
+    // res.send({user: newUser});
+    res.redirect("/users");
+  } catch (error) {
+    res.send("An error occured.");
+  }
+};
+
+
+// on delete request
+exports.delete_user=async (req, res) => {
+  try {
+    await UserModel.destroy({
+      where: {
+        id : req.params.id,
+      }
+    });
+    res.redirect("/users");
+  } catch (error) {
+    res.send("An error occured.");
+  }
+}
+
+// on edit request
+/* update({firstName: req.body.first_name}, {where: { id: req.params.id} */
+exports.edit_user = async (req, res) => {
+  
+  try {
+    const newUser = await UserModel.create({
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+    })
+    // res.send({user: newUser});
+    res.redirect("/users");
+  } catch (error) {
+    res.send("An error occured.");
+  }
 };
