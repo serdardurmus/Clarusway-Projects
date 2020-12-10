@@ -7,6 +7,8 @@ MERN stack
 - npm init -y
 - npm i express
 - npm i nodemon --save-dev
+- npm i mongoose
+- npm i dotenv
 
 ### Todo
 PROJE: Bookstore
