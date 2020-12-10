@@ -6,6 +6,7 @@ MERN stack
 - .env
 - npm init -y
 - npm i express
+- npm i nodemon --save-dev
 
 ### Todo
 PROJE: Bookstore
