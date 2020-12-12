@@ -9,6 +9,8 @@ MERN stack
 - npm i nodemon --save-dev
 - npm i mongoose
 - npm i dotenv
+- npm install bcryptjs
+- npm i express-validator
 
 ### Todo
 PROJE: Bookstore
