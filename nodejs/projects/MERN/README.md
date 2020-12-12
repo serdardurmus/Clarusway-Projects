@@ -29,3 +29,11 @@ TECH MERN STACK:    - BE node.js server (RESTFul API)
                     - View (Client) React
                     - Payment: Stripe
                     - Production-Heroku Deploy
+
+### POSTMAN
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "password": "123412341234",
+    "email": "abc@abc.com" 
+}
