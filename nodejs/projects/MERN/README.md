@@ -16,6 +16,7 @@ MERN stack
 - yarn add antd (husk i client)
 - npm i @ant-design/icons (husk i client)
 - npm install cors (ungaa policy, vi trenger ikke det pga trygghet. Det er bare informasjon)
+- npm install react-stripe-checkout (pay)
 
 ### Todo
 PROJE: Bookstore
