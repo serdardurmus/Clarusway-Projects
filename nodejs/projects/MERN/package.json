@@ -2,10 +2,14 @@
   "name": "MERN",
   "version": "1.0.0",
   "description": "Serdar Durmus\r MERN stack",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "start-client": "npm start --prefix client",
+    "develop": "concurrently -n 'server,client' -c 'red,blue' \"npm start\" \"npm start-client\" ",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",

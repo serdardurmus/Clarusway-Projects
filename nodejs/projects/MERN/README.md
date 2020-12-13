@@ -12,6 +12,7 @@ MERN stack
 - npm install bcryptjs
 - npm i express-validator
 - npm install jsonwebtoken
+- npm install concurrently --save
 
 ### Todo
 PROJE: Bookstore
