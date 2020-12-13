@@ -13,6 +13,9 @@ MERN stack
 - npm i express-validator
 - npm install jsonwebtoken
 - npm install concurrently --save
+- yarn add antd (husk i client)
+- npm i @ant-design/icons (husk i client)
+- npm install cors (ungaa policy, vi trenger ikke det pga trygghet. Det er bare informasjon)
 
 ### Todo
 PROJE: Bookstore
