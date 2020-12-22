@@ -1,5 +1,6 @@
 # Django Hands-on Trainings
 
+# install
 - py -m venv clsenv
 - .\clsenv\Scripts\activate
 - pip install django
