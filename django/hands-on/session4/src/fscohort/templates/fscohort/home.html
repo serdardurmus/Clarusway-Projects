@@ -1,29 +1,9 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    {% comment %} <form action="https://www.google.com/search", method="GET">
-        <input type="text", name="q", placeholder="Title">
-        <input type="submit", value="Search">
-    </form> {% endcomment %}
+{% extends 'fscohort/base.html' %}
 
-    <form action="." method="GET">
-        {{ form }}
-    </form>
-    
-    <h1>Hello, this is home page</h1>
-    {{ title|title }} <br>
-    {{ title|safe }} <br> <!-- safe tagı işleme aldı-->
-    {{ title|title|add:" is the best" }} <br>
-    {{ dict_1 }} <br>
-    {{ my_list }} <br>
-    {% for i in my_list %} 
-        {% if i == 3 %} <p> Bu sayı 3 </p>
-        {% else %} {{ i }}
-    {% endif %}
-    {% endfor %}
-</body>
-</html>
+{% block title %}
+home page
+{% endblock title %}
+
+{% block content %}
+<h1>Hello, this is home page.</h1>
+{% endblock %}

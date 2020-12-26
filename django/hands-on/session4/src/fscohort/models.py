@@ -7,5 +7,5 @@ class Student(models.Model):
     number = models.IntegerField()
 
     def __str__(self):
-        # return self.first_name + " " + self.last_name
-        return "{} {}".format(self.first_name, self.last_name)
+        return self.first_name 
+        # return "{} {}".format(self.first_name, self.last_name)
