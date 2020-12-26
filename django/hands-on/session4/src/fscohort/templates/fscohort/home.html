@@ -5,6 +5,15 @@
     <title>Document</title>
 </head>
 <body>
+    {% comment %} <form action="https://www.google.com/search", method="GET">
+        <input type="text", name="q", placeholder="Title">
+        <input type="submit", value="Search">
+    </form> {% endcomment %}
+
+    <form action="." method="GET">
+        {{ form }}
+    </form>
+    
     <h1>Hello, this is home page</h1>
     {{ title|title }} <br>
     {{ title|safe }} <br> <!-- safe tagı işleme aldı-->
