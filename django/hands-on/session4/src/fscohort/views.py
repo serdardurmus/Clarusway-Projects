@@ -10,7 +10,7 @@ def home_view(request):
     # print(request.COOKIES)
     # return HttpResponse("Hello world.")
     my_context = {
-        'title': 'clarusway',
+        'title': '<h1>clarusway</h1>',
         'dict_1': { 'django': 'best framework'},
         'my_list': [1,2,3,4,5]
     }

@@ -6,8 +6,15 @@
 </head>
 <body>
     <h1>Hello, this is home page</h1>
-    {{ title }} <br>
+    {{ title|title }} <br>
+    {{ title|safe }} <br> <!-- safe tagı işleme aldı-->
+    {{ title|title|add:" is the best" }} <br>
     {{ dict_1 }} <br>
-    {{ my_list }}
+    {{ my_list }} <br>
+    {% for i in my_list %} 
+        {% if i == 3 %} <p> Bu sayı 3 </p>
+        {% else %} {{ i }}
+    {% endif %}
+    {% endfor %}
 </body>
 </html>
