@@ -1,6 +1,9 @@
 # Django Hands-on Trainings
 
 # install
+
+- pip intsall -r .\requirements.txt  // github'tan indirdiğimiz projeyi kullanmak için
+
 - .gitignore
 - py -m venv myenv  // Bu zorunlu değil, best pracsis
 - .\myenv\Scripts\activate
