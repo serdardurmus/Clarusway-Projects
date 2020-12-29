@@ -15,6 +15,8 @@
 
 - py manage.py startapp fscohort
 
+- pip install python-decouple //
+
 - py manage.py runserver
 
 - py manage.py makemigrations
