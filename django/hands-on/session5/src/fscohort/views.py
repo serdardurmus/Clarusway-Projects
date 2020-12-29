@@ -17,6 +17,7 @@ from django.http import HttpResponse
 def home_view(request):
     my_context = {
         'title': 'serdar',
+        'title2': '<b>durmus</b>',
         'dict_1': {
             'django': 'best framework'
         },
