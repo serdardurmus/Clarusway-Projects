@@ -5,6 +5,7 @@
 - pip intsall -r .\requirements.txt  // github'tan indirdiğimiz projeyi kullanmak için
 
 - .gitignore
+    - içine myenv dosyasını ekle
 - py -m venv myenv  // Bu zorunlu değil, best pracsis
 - .\myenv\Scripts\activate
 - pip install django
@@ -14,6 +15,7 @@
 - mv .\clarusway\ src // iki tane iç içe clarusway klasörü oluyor. 1.nin adını değiştiriyoruz.
 
 - py manage.py startapp fscohort
+    - .urls.py dosyası oluşturduk  // url yapısını oluşturmak için
 
 - pip install python-decouple //
 
