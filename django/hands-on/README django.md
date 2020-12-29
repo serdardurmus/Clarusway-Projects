@@ -15,12 +15,14 @@
 - mv .\clarusway\ src // iki tane iç içe clarusway klasörü oluyor. 1.nin adını değiştiriyoruz.
 
 - py manage.py startapp fscohort
-    - .urls.py dosyası oluşturduk  // url yapısını oluşturmak için
+    - fscohort/urls.py dosyası oluşturduk  // url yapısını oluşturmak için
+    - settings.py içine 'fscohot' ekle 
 
 - pip install python-decouple //
 
 - py manage.py runserver
 
+- py manage.py migrate
 - py manage.py makemigrations
 - py manage.py migrate
 
@@ -30,7 +32,7 @@
 - from fscohort.models import Student
 - s1 = Student(sir_name="John", last_name="D", number=123)
 - s1.save()
-s3 = Student.objects.create(sir_name="Mert", last_name="M", number=753) // save e gerek yok
+- s3 = Student.objects.create(sir_name="Mert", last_name="M", number=753) // save e gerek yok
 #
 // django
 /*/*/*/*/*/*/*/*/*/*/
@@ -50,6 +52,7 @@ $ py manage.py migrate
 $ py manage.py createsuperuser
 $ py manage.py check // ile hataları da kontrol edebiliriz
 https://docs.djangoproject.com/en/3.1/topics/db/models/
+
 /*/*/*/*/*/*/*/*/
 M O D E L
 /*/*/*/*/*/*/*/*/
@@ -63,6 +66,11 @@ MODEL oluşturduktan sonra
 $ py manage.py makemigrations  // birleştirmeye hazırlama
 $ py manage.py migrate  // birleştirme
 $ py manage.py runserver  // serverı tekrar çalıştırıyoruz
+
 // Modelimizi admin.py içeririsine import ediyoruz
 from .models import Student
 admin.site.register(Student)
+
+Veritabanında veriler obje olarak gözükür. Aşağıdaki şekilde isimler gözükecek
+def __str__(self):
+        return self.first_name
