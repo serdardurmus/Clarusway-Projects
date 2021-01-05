@@ -22,7 +22,7 @@
 
 - py manage.py runserver
 
-- py manage.py migrate
+- py manage.py migrate  // Modelde değişiklik yapacaksak migrate komutunu kullanıyoruz
 - py manage.py makemigrations
 - py manage.py migrate
 
@@ -30,9 +30,9 @@
 
 - py manage.py shell
 - from fscohort.models import Student
-- s1 = Student(sir_name="John", last_name="D", number=123)
+- s1 = Student(first_name="John", last_name="D", number=123)
 - s1.save()
-- s3 = Student.objects.create(sir_name="Mert", last_name="M", number=753) // save e gerek yok
+- s3 = Student.objects.create(first_name="Mert", last_name="M", number=753) // save e gerek yok
 #
 // django
 /*/*/*/*/*/*/*/*/*/*/
