@@ -1,40 +1,14 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Views-Templates-Forms & CRUD Operations</title>
-</head>
-<body>
-    <!-- <form action="https://www.google.com/search" method="get">
-        <input type="text", name="q", placeholder="Title">
-        <input type="submit", value="Search">
-    </form> -->
+{% extends 'fscohort/base.html' %}
+  
 
-    <form action="." method="get">
-        {{ form }}
-    </form>
-
-    <h1>Views-Templates-Forms & CRUD Operations</h1>
-    Title: {{ title }} <br>
-    Title2: {{ title2 }} <br>
-    Title2: {{ title2|safe }} <br> <!-- SAFE - ben buna güveniyorum demek ve html kodlarını uygularım/render ederim demek -->
-    Title: {{ title|title }} <br> <!-- İlk harf büyük yaptık -->
-    Title Concatanate: {{ title|title|add:" is the best" }} <br> <!-- Concatanate -->
-    Title Uzunluk: {{ title|length }} <br> <!-- Uzunluk -->
-
-    <br>
-    dict_1: {{ dict_1 }} <br>
-    dict_1: {{ dict_1.django }} <br>
-    list: {{ my_list }} <br>
+{% block title %}
+    Homepage
+{% endblock title %}
     
-    {% for i in my_list %}
-        {% if i == 3 %} Bu sayı 3 tür <br>
-            {%else %} {{ i }} <br>
-        {% endif %}
-    {% endfor %}
 
-    <!-- html sayfasini paylasabilecek birisi var mi? 1,35 -->
+{% block content %}
+<h1>Views-Templates-Forms & CRUD Operations</h1>
+{% endblock content %}
 
-</body>
-</html>
 
+    
