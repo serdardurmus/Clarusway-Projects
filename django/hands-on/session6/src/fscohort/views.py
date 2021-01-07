@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .forms import StudentForm
 
 # Create your views here.
 
@@ -14,13 +15,15 @@ from django.http import HttpResponse
 #     return HttpResponse("Hello World!")
 
 def home_view(request):
+    form = StudentForm()
     my_context = {
         'title': 'serdar',
         'title2': '<b>durmus</b>',
         'dict_1': {
             'django': 'best framework'
         },
-        'my_list': [2,3,4,5]
+        'my_list': [2,3,4,5],
+        'form': form
     }
     return render(request, "fscohort/home.html", my_context)
 

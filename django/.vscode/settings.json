@@ -1,6 +1,6 @@
 {
-    "python.pythonPath": "C:\\Users\\MittHus\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.pythonPath": "hands-on\\session6\\myenv\\Scripts\\python.exe",
     "python.autoComplete.extraPaths": ["C:/Users/MittHus/AppData/Local/Programs/Python/Python39/python.exe"],
     "python.envFile": ".env",
-    // "python.jediEnabled": true
+    "python.jediEnabled": true
 }
