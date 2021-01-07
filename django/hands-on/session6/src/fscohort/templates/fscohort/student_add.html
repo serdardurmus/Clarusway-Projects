@@ -1,0 +1,15 @@
+{% extends 'fscohort/base.html' %}
+
+{% block title %}
+    Student Add
+{% endblock title %}
+
+{% block content %}
+    <h2>Add student</h2>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }} <!-- Formun paragraf paragraf gözükmesine yarıyor-->
+        <input type="submit" value="Add">
+    </form>
+{% endblock content %}
+    
