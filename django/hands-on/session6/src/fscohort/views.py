@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 from .forms import StudentForm
 from .models import Student
@@ -38,3 +38,13 @@ def student_detail(request, id):
         'student': student
     }
     return render(request, "fscohort/student_detail.html", context)
+
+
+def student_delete(request, id):
+    # student = get_object_or_404(Student, id=id)  # objeyi al, yoksa 404 hatası ver. Daha güvenli bir method
+    student = Student.objects.get(id=id)
+    if request.method == "POST":
+        student.delete()
+        return redirect("list")
+
+    return render(request, "fscohort/student_delete.html")

@@ -10,6 +10,8 @@
         {% csrf_token %}
         {{ form.as_p }} <!-- Formun paragraf paragraf gözükmesine yarıyor-->
         <input type="submit" value="Add">
-    </form>
+    </form> <br>
+    <a href="{% url 'home' %}"><button>Homepage</button></a>
+    <a href="{% url 'list' %}"><button>List Student</button></a>
 {% endblock content %}
     
